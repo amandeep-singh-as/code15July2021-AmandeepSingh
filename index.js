@@ -28,7 +28,7 @@ function calculateBMI(person) {
 var obese = 0;
 data.forEach(element => {
     calculateBMI(element);
-    if(!(element.BMICategory in ['Normal', 'Underweight'])) {
+    if(element.Risk.includes('risk')) {
         obese += 1;
     }
 });
