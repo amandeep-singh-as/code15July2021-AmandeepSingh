@@ -1,0 +1,16 @@
+{
+  "name": "vamstar-assesment",
+  "version": "1.0.0",
+  "description": "\"Technical Assesment for Vamstar\"",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "Vamstar",
+    "BMI"
+  ],
+  "author": "Amandeep Singh",
+  "license": "ISC"
+}
