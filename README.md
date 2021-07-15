@@ -1,9 +1,6 @@
 RUN Program:
     npm start
 
-TEST Program:
-    npm test
-
 For custom data replace "data.json" in root folder.
 
 File structure
